@@ -1,0 +1,17 @@
+#parent{
+    display:grid;
+    padding:10px;
+    background-color: rgb(31, 223, 223);
+    /* grid-template-columns: repeat(4,fr); */
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    column-gap: 15px;
+    
+    /* grid-template-columns: repeat(auto_fit,minmax(150px,1fr)); */
+  
+}
+#parent > .child{
+    width:100% ;
+}
+ #parent > .child > img{
+    width: 100%;
+} 
